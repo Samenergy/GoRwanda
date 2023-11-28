@@ -22,6 +22,9 @@ body {
     top: 0;
     z-index: 1000;
     border: solid;
+    background-color: #2196F3;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .left-nav {
@@ -34,10 +37,15 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 50%;
+    margin-left: -100px;
 }
 .right-nav {
    border: solid;
    display: flex;
+   justify-content: space-between;
+   width: 15%;
+   margin-right: 90px;
+
 }
 
 .right-nav a:hover {
@@ -45,8 +53,8 @@ body {
 }
 
 
-/* .navbar div p a {
+.navbar div p a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-} */
+}
