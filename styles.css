@@ -8,53 +8,64 @@ body {
 }
 
 .logo-nav {
-    max-width: 150px;
+    max-width: 45%;
     height: auto;
-    margin-top: 10px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar {
     width: 100%;
     display: flex;
     padding: 10px;
-    height: 50px;
+    height: 100px;
     position: fixed;
     top: 0;
     z-index: 1000;
-    border: solid;
-    background-color: #2196F3;
+    background-color: transparent;
     justify-content: space-between;
     align-content: center;
+    padding-inline: 50px;
 }
 
-.left-nav {
-    border: solid;
-    display: flex;
-    
-}
 .mid-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
-    margin-left: -100px;
+    width: 45%;
+    margin-left: -300px;
+    font-weight: 400;
 }
 .right-nav {
-   border: solid;
    display: flex;
    justify-content: space-between;
    width: 15%;
    margin-right: 90px;
+   align-items: center;
 
 }
 
-.right-nav a:hover {
-    color: white;
+.right-nav a {
+    font-weight: 500;
+    font-size: 18px;
+
 }
 
 
 .navbar div p a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: white;
+    
+
+}
+.first{
+    /* background: linear-gradient(to bottom, #3498db, #ffffff);
+     */
+    height: 500px;
+    padding-top: 20%;
+    background-image: url(../GoRwanda/images/illume_orig.webp);
+    background-size: cover;
+    color: aliceblue;
+    padding-inline: 55px;
 }
